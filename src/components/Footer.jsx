@@ -53,7 +53,7 @@ const Footer = ()=>{
                <hr style={{margin: '1% 0', color: 'white'}} />
 
                <div className="row bottom_footer" style={{padding: '20px'}}>
-                  <div className="col">Copyright &copy; 2022 Virtual Group</div>
+                  <div className="col">Copyright &copy; 2022 Virtual Group //</div>
                   <div className="col footer_nav">
                      <ul>
                         {navItems.map((navItem)=>{
