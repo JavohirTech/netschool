@@ -44,6 +44,16 @@
         display: none;
     }
 
+   
+
+    .browse_category_cards{
+        grid-template-columns: auto;
+    }
+
+    .browse_category_card{
+        width: 350px;
+    }
+
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -62,10 +72,6 @@
         display: inline-block;
     }
 
-    body{
-        background-color: red;
-    }
-
     .footer_row{
         display: flex;
         flex-direction: column;
@@ -76,6 +82,14 @@
     }
     .footer_nav{
         display: none;
+    }
+
+    .browse_category_cards{
+        grid-template-columns: auto auto;
+    }
+
+    .browse_category_card{
+        width: 350px;
     }
 }
 
