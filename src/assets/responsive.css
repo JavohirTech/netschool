@@ -31,6 +31,19 @@
     .home .row .col img.homegirl{
         width: 100%;
     }
+
+    .footer_row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom_footer{
+        justify-content: center;
+    }
+    .footer_nav{
+        display: none;
+    }
+
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -47,6 +60,22 @@
     }
     .navbar_ul li{
         display: inline-block;
+    }
+
+    body{
+        background-color: red;
+    }
+
+    .footer_row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom_footer{
+        justify-content: center;
+    }
+    .footer_nav{
+        display: none;
     }
 }
 
