@@ -54,6 +54,10 @@
         width: 350px;
     }
 
+    .footer_row .col{
+        width: 100%;
+    }
+
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -91,6 +95,10 @@
     .browse_category_card{
         width: 350px;
     }
+
+    .footer_row .col{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1025px){
@@ -101,9 +109,6 @@
     .home{
         height: 90vh;
         overflow: hidden;
-    }
-    .home .row .col img.homegirl{
-        /* width: ; */
     }
     .navbar_ul li{
         display: inline-block;

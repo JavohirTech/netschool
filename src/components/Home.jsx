@@ -2,8 +2,9 @@ import '../styles_umar.css'
 import '../assets/responsive.css'
 import HomeGirl from  '../assets/home_girl.png'
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
 import BrowseCategory from './Home/BrowseCategory';
+import AboutUs from './Home/AboutUs';
+import Footer from './Footer';
 
 const Home = ()=>{
     return(
@@ -26,6 +27,7 @@ const Home = ()=>{
             <div className="container">
                 <BrowseCategory/>
             </div>
+            <AboutUs/>
             <Footer/>
         </>
     )
