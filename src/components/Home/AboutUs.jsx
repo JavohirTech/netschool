@@ -6,7 +6,7 @@ const AboutUs = ()=>{
    return(
       <>
          <div className="about_us">
-            <div className="container">
+            <div className="container pad">
                <div className="row about_row">
                   <div className="col about_us_images">
                      <img src={about_us_img} alt="" />

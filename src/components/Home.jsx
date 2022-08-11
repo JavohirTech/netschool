@@ -4,6 +4,7 @@ import HomeGirl from  '../assets/home_girl.png'
 import { Link } from 'react-router-dom';
 import BrowseCategory from './Home/BrowseCategory';
 import AboutUs from './Home/AboutUs';
+import FeaturedCourses from './Home/FeaturedCourses';
 import Footer from './Footer';
 
 const Home = ()=>{
@@ -28,6 +29,7 @@ const Home = ()=>{
                 <BrowseCategory/>
             </div>
             <AboutUs/>
+            <FeaturedCourses/>
             <Footer/>
         </>
     )
