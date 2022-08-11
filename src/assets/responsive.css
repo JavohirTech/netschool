@@ -58,6 +58,17 @@
         width: 100%;
     }
 
+    .about_row{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_row .col{
+        width: 100%;
+    }
+    .about_us_images img{
+        width: 100%;
+    }
+
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -98,6 +109,26 @@
 
     .footer_row .col{
         width: 100%;
+    }
+
+    .about_row{
+        display: flex;
+        flex-direction: row;
+    }
+    .about_us_images img{
+        width: 100%;
+    }
+
+    .about_us_matn{
+        font-size: 10px;
+    }
+
+    .about_us_icon span{
+        font-size: 10px;
+    }
+
+    .about_us_matn h2{
+        line-height: 30px;
     }
 }
 
