@@ -36,3 +36,13 @@ const Home = ()=>{
 }
 
 export default Home
+
+
+
+export const HomeMainBtn = (props)=>{
+    return(
+        <>
+            <Link className={props.dizayn} to={props.manzil}>{props.text}</Link>
+        </>
+    )
+}

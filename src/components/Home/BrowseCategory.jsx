@@ -1,5 +1,6 @@
 import '../../styles_umar.css'
 import { Link } from 'react-router-dom';
+import { HomeMainBtn } from '../Home';
 
 const BrowseCategory = ()=>{
     return(
@@ -40,7 +41,7 @@ const BrowseCategory = ()=>{
                     </Link>
                     
                 </div>
-                <Link className='main_buttoncha browse_btn' to="/courses">See All Categories</Link>
+                <HomeMainBtn manzil="/courses" dizayn="browse_btn" text="See All Categories"/>
             </div>
         </>
     )

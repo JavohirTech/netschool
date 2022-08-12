@@ -262,10 +262,11 @@ a{
     color: white;
     background-color: #65B337;
     justify-self: center;
-    margin-top: -10px;
     width: 200px;
-    box-shadow: none;
     transition: all 0.4s;
+    padding: 10px 20px;
+    margin-bottom: 7%;
+    border-radius: 25px;
 }
 
 .browse_btn:hover{
@@ -395,6 +396,28 @@ a{
 .featured_courses_card_active{
     display: block;
 }
+
+.featured_courses_card_active{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+.featured_courses_card_active .cardcha{
+    margin: 10px;
+    background-color: #453E79;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.div_for_home_main_btn{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
 /* featured Courses finish*/
 
 *{

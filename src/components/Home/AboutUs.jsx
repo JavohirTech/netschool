@@ -27,7 +27,7 @@ const AboutUs = ()=>{
                            <span>Educator Support</span>
                         </div>
                      </div>
-                     <Link className='main_buttoncha browse_btn' to="/courses">Learn More</Link>
+                     <Link className='browse_btn' to="/courses">Learn More</Link>
                   </div>
                </div>   
             </div>
