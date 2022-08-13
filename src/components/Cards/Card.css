@@ -36,7 +36,7 @@ body {
     background-color: #fff;
     border-radius:10px;
     cursor:pointer;
-    width: 100%;
+    width: 450px;
     margin-left: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -191,3 +191,39 @@ body {
         width: 300px;
     }
 }
+
+/* worldcard */
+.world_card_head{
+    border-radius: 20px;
+}
+.world_card:hover img{
+    border: 20px;
+    transform: scale(1.06);
+}
+.world_card_head img{
+    transition: all 0.4s;
+    border-radius: 20px;
+}
+.world_card{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.world_card_body{
+    padding: 40px;
+}
+.world_card_body i{
+    padding: 10px;
+    font-size: 20px;
+}
+.fa-facebook{
+    color: #395498;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-telegram{
+    color: #2B9ED6;
+}
+/* world card finish */

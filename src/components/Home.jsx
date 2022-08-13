@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 import BrowseCategory from './Home/BrowseCategory';
 import AboutUs from './Home/AboutUs';
 import FeaturedCourses from './Home/FeaturedCourses';
+import Membership from './Home/Membership';
+import Testimonials from './Home/Testimonials';
+import WorldClass from './Home/WorldClass';
 import Footer from './Footer';
 
 const Home = ()=>{
@@ -30,6 +33,9 @@ const Home = ()=>{
             </div>
             <AboutUs/>
             <FeaturedCourses/>
+            <Membership/>
+            <Testimonials/>
+            <WorldClass/>
             <Footer/>
         </>
     )

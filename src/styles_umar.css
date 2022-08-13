@@ -219,8 +219,9 @@ a{
     align-items: center;
 }
 
-.browse_category .home_theme{
+.browse_category .home_theme, .container .home_theme, .worldclass .home_theme{
     color: #FF6A52;
+    font-weight: 600;
 }
 
 .browse_category_cards{
@@ -419,6 +420,79 @@ a{
 
 
 /* featured Courses finish*/
+
+
+/* membership */
+
+.membership{
+    color: white;
+    background: rgb(48,0,110);
+    background: linear-gradient(103deg, rgba(48,0,110,1) 0%, rgba(156,76,255,1) 100%);
+}
+
+.membership_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.membership_mini_row{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.membership_mini_row .membership_col{
+    position: relative;
+    color: black;
+    margin: 30px;
+    background-color: white;
+    padding-right: 5%;
+    border-radius: 20px;
+    z-index: 2;
+}
+.membership_mini_row .membership_col:after{
+    content: '';
+    border: 3px dashed rgba(255, 255, 255, 0.438);
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 20px;
+    left: 35px;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.membership_col .row .col i{
+    padding: 30px;
+    color: #65B337;
+}
+
+
+/* membership finish */
+
+/* Testimonials */
+
+.testimonials{
+    text-align: center;
+}
+
+
+/* Testimonials finish */
+
+/* worldclass */
+
+.worldclass{
+    text-align: center;
+}
+
+.worldclass_cards{
+    padding: 3% 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* worldclass finish */
 
 *{
     /* border: 1px solid red; */

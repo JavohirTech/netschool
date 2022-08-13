@@ -81,6 +81,27 @@
         grid-template-columns:auto;
     }
 
+    .membership_row{
+        flex-direction: column;
+    }
+
+    .membership_mini_row .membership_col{
+        margin: 10px !important;
+    }
+    
+    .membership_mini_row{
+        justify-content: space-between;
+        grid-template-columns: auto;
+    }
+
+    .membership_mini_row .membership_col:after{
+        border: none;
+    }
+
+    .worldclass_cards{
+        grid-template-columns: ;
+    }
+
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -147,6 +168,23 @@
         grid-template-columns:auto auto;
     }
 
+    .membership_row{
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .membership_mini_row .membership_col{
+        margin: 10px !important;
+    }
+    
+    .membership_mini_row{
+        grid-template-columns: auto;
+    }
+
+    .membership_mini_row .membership_col:after{
+        border: none;
+    }
+
 }
 
 @media screen and (min-width: 1025px){
@@ -170,6 +208,15 @@
     }
     .card-b{
         width: 50%;
+    }
+
+    .membership_mini_row .membership_col:after{
+        border: none;
+    }
+
+    .membership_row{
+        justify-content: space-between;
+        flex-direction: row;
     }
 }
 /* responsive */

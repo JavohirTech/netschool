@@ -44,3 +44,22 @@ export const FeaturedCard = ()=> {
         </>
     )
 }
+
+export const WorldClassCard = ()=>{
+    return(
+        <>
+            <div className="world_card">
+                <div className="world_card_head">
+                    <img src="https://source.unsplash.com/random/350x300" alt="" />
+                </div>
+                <div className="world_card_body">
+                    <h2 className="world_card_teacher">Robert Fox</h2>
+                    <span>Web Teacher | Development</span><br />
+                    <Link to="/social"><i className="fab fa-facebook"></i></Link>
+                    <Link to="/social"><i className="fab fa-twitter"></i></Link>
+                    <Link to="/social"><i className="fab fa-telegram"></i></Link>
+                </div>
+            </div>
+        </>
+    )
+}
