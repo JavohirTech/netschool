@@ -1,13 +1,11 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
 import { HomeMainBtn } from "../Home"
+import {FeaturedCard} from '../Cards/Card'
 const FeaturedCourses = ()=>{
 
    const [toggleState, setToggleState] = useState(1)
 
    const toggleTab=(index)=>{
-      console.log(index);
-      console.log(toggleState);
       setToggleState(index)
    }
 
@@ -32,85 +30,27 @@ const FeaturedCourses = ()=>{
 
                <div className="featured_courses_cards">
                   <div className={toggleState === 1 ? "featured_courses_card_active" :"featured_courses_card"}>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
                   </div>
 
                   <div className={toggleState === 2 ? "featured_courses_card_active" :"featured_courses_card"}>
-                  <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
                   </div>
                   <div className={toggleState === 3 ? "featured_courses_card_active" :"featured_courses_card"}>
-                  <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
+                     <FeaturedCard/>
                   </div>
                   <div className={toggleState === 4 ? "featured_courses_card_active" :"featured_courses_card"}>
-                  <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
-                     <div className="cardcha">
-                        <h1>Card 1</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum corporis, nam quidem natus optio nemo quo a? Dignissimos, nemo iure ea eligendi ipsa dicta maxime? Delectus similique voluptates doloremque.</p>
-                     </div>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
+                     <FeaturedCard/>
                   </div>
                </div>
                <div className="div_for_home_main_btn">

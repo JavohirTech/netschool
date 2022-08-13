@@ -69,6 +69,18 @@
         width: 100%;
     }
 
+    .featured_courses_title{
+        grid-template-columns: auto;
+    }
+    .featured_courses_tabs{
+        margin-top: 30px;
+    }
+
+    .featured_courses_card_active{
+        grid-template-rows: auto;
+        grid-template-columns:auto;
+    }
+
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -130,6 +142,11 @@
     .about_us_matn h2{
         line-height: 30px;
     }
+    .featured_courses_card_active{
+        grid-template-rows: auto auto;
+        grid-template-columns:auto auto;
+    }
+
 }
 
 @media screen and (min-width: 1025px){
@@ -146,6 +163,13 @@
     }
     .home .row .col{
         width: 60%;
+    }
+    .featured_courses_card_active{
+        grid-template-rows: auto auto auto;
+        grid-template-columns:auto auto auto;
+    }
+    .card-b{
+        width: 50%;
     }
 }
 /* responsive */
