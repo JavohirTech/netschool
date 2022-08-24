@@ -9,6 +9,7 @@ import Membership from './Home/Membership';
 import Testimonials from './Home/Testimonials';
 import WorldClass from './Home/WorldClass';
 import Footer from './Footer';
+import LetStudy from './Home/LetStudy';
 
 const Home = ()=>{
     return(
@@ -36,6 +37,7 @@ const Home = ()=>{
             <Membership/>
             <Testimonials/>
             <WorldClass/>
+            <LetStudy/>
             <Footer/>
         </>
     )

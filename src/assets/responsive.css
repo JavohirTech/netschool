@@ -98,10 +98,19 @@
         border: none;
     }
 
-    .worldclass_cards{
-        grid-template-columns: ;
+    .study__cards{
+        margin: 0;
+        grid-template-columns: auto;
+    }
+    .study__cards .study__card{
+        display: block;
+        margin-left: 0;
+        width: 100%;
     }
 
+    .study__card__overlay__icon{
+        display: none;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -185,6 +194,19 @@
         border: none;
     }
 
+    .study__cards{
+        margin: 0;
+        grid-template-columns: auto;
+    }
+    .study__cards .study__card{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .study__card__overlay__icon{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 1025px){
@@ -217,6 +239,10 @@
     .membership_row{
         justify-content: space-between;
         flex-direction: row;
+    }
+
+    .study__card__overlay__icon{
+        /* display: none; */
     }
 }
 /* responsive */
